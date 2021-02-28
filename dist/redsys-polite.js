@@ -324,9 +324,9 @@
                   DS_MERCHANT_IDENTIFIER: this.setPayByReference,
                   DS_MERCHANT_DIRECTPAYMENT: this.enableDirectPayment,
                   // Test code
-                  DS_MERCHANT_PAN: '4548812049400004',
-                  DS_MERCHANT_EXPIRYDATE: '1512',
-                  DS_MERCHANT_CVV2: '123',
+                  // DS_MERCHANT_PAN: '4548812049400004',
+                  // DS_MERCHANT_EXPIRYDATE: '1512',
+                  // DS_MERCHANT_CVV2: '123',
                 }
               },
             },
