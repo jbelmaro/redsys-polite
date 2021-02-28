@@ -178,7 +178,10 @@
             {
               key: 'setTotal',
               value: function setTotal(total) {
+                console.log(total)
                 this.total = parseFloat(total * 100)
+                console.log(this.total)
+
                 return this
               },
             },
