@@ -437,7 +437,7 @@
             this.name = 'Default-Redsys'
             this.terminal = '1'
             this.language = 'auto'
-            this.transaction_type = '0'
+            // this.transaction_type = '0'
             this.setPayByReference = ''
             this.enableDirectPayment = false
             // Production URL
