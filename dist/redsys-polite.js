@@ -201,6 +201,13 @@
               },
             },
             {
+              key: 'setTransactionType',
+              value: function setTransactionType(transaction_type) {
+                this.transaction_type = transaction_type
+                return this
+              },
+            },
+            {
               key: 'setCurrency',
               value: function setCurrency(currency) {
                 this.currency = currency
