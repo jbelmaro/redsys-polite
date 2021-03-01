@@ -319,7 +319,7 @@
                   DS_MERCHANT_ORDER: payment.order_id,
                   DS_MERCHANT_MERCHANTCODE: this.merchantCode,
                   DS_MERCHANT_CURRENCY: payment.currency,
-                  DS_MERCHANT_TRANSACTIONTYPE: this.transaction_type,
+                  DS_MERCHANT_TRANSACTIONTYPE: payment.transaction_type,
                   DS_MERCHANT_TERMINAL: this.terminal,
                   DS_MERCHANT_MERCHANTURL: payment.redirect_urls.merchant_url,
                   DS_MERCHANT_URLOK: payment.redirect_urls.ok_url,
