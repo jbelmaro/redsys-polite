@@ -214,9 +214,23 @@
               },
             },
             {
-              key: 'setCurrency',
-              value: function setCurrency(currency) {
-                this.currency = currency
+              key: 'setChargeExpiryDate',
+              value: function setChargeExpiryDate(chargeExpiryDate) {
+                this.chargeExpiryDate = chargeExpiryDate
+                return this
+              },
+            },
+            {
+              key: 'setDateFrecuency',
+              value: function setDateFrecuency(dateFrecuency) {
+                this.dateFrecuency = dateFrecuency
+                return this
+              },
+            },
+            {
+              key: 'setSumTotal',
+              value: function setSumTotal(sumTotal) {
+                this.sumTotal = sumTotal
                 return this
               },
             },
@@ -337,6 +351,8 @@
                   DS_MERCHANT_IDENTIFIER: this.setPayByReference,
                   DS_MERCHANT_DIRECTPAYMENT: this.enableDirectPayment,
                   DS_MERCHANT_DATEFRECUENCY: payment.dateFrecuency,
+                  DS_MERCHANT_SUMTOTAL: payment.sumTotal,
+                  DS_MERCHANT_CHARGEEXPIRYDATE: payment.chargeExpiryDate,
                   // Test code
                   // DS_MERCHANT_PAN: '4548812049400004',
                   // DS_MERCHANT_EXPIRYDATE: '1512',
