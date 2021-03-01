@@ -166,7 +166,6 @@
             this.currency = 978 // for euros
             this.description = ''
             this.data = ''
-            this.transaction_type = 0
             this.redirect_urls = {
               merchant_url: '',
               ok_url: '',
